@@ -1,6 +1,5 @@
 package androidavancadoaula01kotlin.fabiolindemberg.com.br.androidavancadoaula01kotlin
 
-import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent

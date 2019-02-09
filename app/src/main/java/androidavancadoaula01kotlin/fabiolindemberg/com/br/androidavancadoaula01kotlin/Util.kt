@@ -6,13 +6,10 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.support.v4.app.NotificationCompat
-import android.support.v4.content.ContextCompat.getSystemService
-import androidavancadoaula01kotlin.fabiolindemberg.com.br.androidavancadoaula01kotlin.R.id.btnShowMessage
 
 object Util{
-    
+
     val MEU_CANAL = "Meu Canal"
 
     fun showBigPictureNotification(context: Context, id: Int, title: String, text: String, intent: Intent, picture: Bitmap){
