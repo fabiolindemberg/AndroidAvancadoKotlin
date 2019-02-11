@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val intent = Intent(this, SecondActivity::class.java)
-        intent.putExtra("extra01", "E ai tabacudo!")
+        intent.putExtra("extra01", "Mensagem teste")
 
         btnShowMessage.setOnClickListener({ view ->
             val myBitmap = BitmapFactory.decodeResource(resources, R.drawable.segunda)
